@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build:
+      context: ./frontend/course-flow-app
+      dockerfile: Dockerfile
+    ports:
+      - '4200:4200'
+    volumes:
+      - ./frontend/course-flow-app:/frontend

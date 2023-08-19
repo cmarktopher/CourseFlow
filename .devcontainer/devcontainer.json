@@ -1,0 +1,4 @@
+{
+    "name": "Cource Flow Development Container",
+    "dockerFile": "../Dockerfile"
+}
